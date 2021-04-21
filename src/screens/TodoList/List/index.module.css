@@ -1,0 +1,67 @@
+.todoItem {
+	display: flex;
+	flex-direction: row;
+}
+
+.todo {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	border: 1px solid #d4d4d4;
+	border-radius: 3px;
+	margin: 16px;
+	padding: 16px;
+}
+
+.todo.selected {
+	background-color: #e4e4e4;
+}
+
+.todoList {
+	height: 800px;
+	overflow: scroll;
+}
+
+.todo:hover {
+	background-color: #e4e4e4;
+	cursor: pointer;
+}
+
+.todoTitle {
+	font-size: 0.9em;
+}
+
+.dueDate {
+	font-size: 0.7em;
+}
+
+.missed {
+	font-weight: 300;
+	color: red;
+}
+
+.menuContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 4px 8px 0 0;
+	justify-content: space-evenly;
+}
+
+.status {
+	height: 1em;
+	width: 1em;
+	border-radius: 16px;
+	cursor: pointer;
+}
+
+.status.pending {
+	background-color: #ff000078;
+}
+
+.status.done {
+	background-color: #00800091;
+}
+
+.remove {
+	cursor: pointer;
+}

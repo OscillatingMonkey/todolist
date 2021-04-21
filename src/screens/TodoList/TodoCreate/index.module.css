@@ -1,0 +1,12 @@
+.submitButton {
+	border: none !important;
+	margin: 32px;
+}
+
+.submitButton:hover {
+	background-color: #e4e4e4;
+}
+
+.submitButton:disabled {
+	background-color: #d4d4d4;
+}
